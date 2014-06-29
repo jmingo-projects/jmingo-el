@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jmingo.el</groupId>
+    <groupId>org.jmingo</groupId>
     <artifactId>jmingo-el</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
@@ -57,9 +57,11 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <modules>
         <module>jmingo-el-api</module>
-        <module>jmingo-jexl</module>
-        <module>jmingo-springel</module>
+        <module>jmingo-el-jexl</module>
+        <module>jmingo-el-springexp</module>
     </modules>
+
 </project>

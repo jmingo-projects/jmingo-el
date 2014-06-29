@@ -4,15 +4,17 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.jmingo.el</groupId>
+        <groupId>org.jmingo</groupId>
         <artifactId>jmingo-el</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>jmingo-springel</artifactId>
-    <name>JMingo EL</name>
+
+    <artifactId>jmingo-springexp</artifactId>
+    <name>JMingo Spring Framework Expression</name>
+
     <dependencies>
         <dependency>
-            <groupId>com.jmingo.el</groupId>
+            <groupId>org.jmingo</groupId>
             <artifactId>jmingo-el-api</artifactId>
             <version>1.0.0</version>
         </dependency>

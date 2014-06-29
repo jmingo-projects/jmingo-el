@@ -4,15 +4,17 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.jmingo.el</groupId>
+        <groupId>org.jmingo</groupId>
         <artifactId>jmingo-el</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>jmingo-jexl</artifactId>
-    <name>JMingo EL</name>
+
+    <artifactId>jmingo-el-jexl</artifactId>
+    <name>JMingo JEXL Expression Language</name>
+
     <dependencies>
         <dependency>
-            <groupId>com.jmingo.el</groupId>
+            <groupId>org.jmingo</groupId>
             <artifactId>jmingo-el-api</artifactId>
             <version>1.0.0</version>
         </dependency>
