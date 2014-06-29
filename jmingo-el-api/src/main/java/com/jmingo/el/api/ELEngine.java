@@ -19,6 +19,7 @@ import java.util.Map;
 
 /**
  * Base interface declares methods to evaluate a expression language.
+ * It's important: implementations must have default constructor.
  */
 public interface ELEngine {
 
