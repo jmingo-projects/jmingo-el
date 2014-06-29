@@ -9,7 +9,7 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>jmingo-springexp</artifactId>
+    <artifactId>jmingo-el-springexp</artifactId>
     <name>JMingo Spring Framework Expression</name>
 
     <dependencies>
